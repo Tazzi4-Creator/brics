@@ -1,0 +1,44 @@
+/* Основные стили для body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Светлый фон */
+    font-family: Arial, sans-serif; /* Шрифт */
+    font-size: 36px;
+}
+
+/* Заголовок */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border-radius: 10px;
+}
+
+/* Основные стили для галереи изображений */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет изображениям переноситься на новую строку */
+    justify-content: center; /* Центрирует изображения */
+    padding: 15px;
+}
+
+/* Стили для изображений */
+img {
+    margin: 10px; /* Отступы между изображениями */
+    border-radius: 10px; /* Закругленные углы */
+    transition: transform 0.3s, box-shadow 0.3s; /* Плавный переход для эффекта при наведении */
+    max-width: 100%; /* Ограничение ширины изображений */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Эффект при наведении на изображения */
+img:hover {
+    transform: scale(1.05); /* Увеличение изображения при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+.container{
+    padding: 0 10%;
+}
